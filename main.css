@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /* text-colors */
+    --dark-blue: hsl(238, 29%, 16%); /* opened heading */
+    --dark-grey-blue: hsl(237, 12%, 33%); /* closed heading */
+    --grey-blue: hsl(240, 6%, 50%); /* paragraph text */
+    --soft-red: hsl(14, 88%, 65%); /* arrow */
+    /* background-colors */
+    --soft-voilet: #af67e9;
+    --soft-blue: #6565e7;
+    /* shadows(?) */
+    /* dividers */
+    --light-grey-blue: hsl(240, 5%, 91%);
+}
+
+/* minimal CSS reset based on: https://www.digitalocean.com/community/tutorials/css-minimal-css-reset */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+/* *, *:before, *:after {
+box-sizing: inherit;
+} */
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+/* img {
+max-width: 100%;
+height: auto;
+} */
+
+
+/* ### MOBILE */
+body {
+    height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--soft-voilet);
+    background: linear-gradient(25deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin: 1em auto;
+}
+
+p {
+    font-size: 13px;
+}
+
+#faq-box {
+    background-color: white;
+    border-radius: 16px;
+    padding: 1.4em;
+    margin: 2em;
+    margin-top: 10em;
+}
+
+#illustration-mobile {
+    display: block;
+    margin-top: -8.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding: 1em;
+}
+
+.question {
+    display: inline-block;
+    margin: .8em auto;
+}
+
+.open-question {
+    font-weight: 700;
+}
+
+.arrow {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.up-arrow {
+    display: inline-block;
+    transform: none;
+}
+
+.answer {
+    display: none;
+}
+
+.open-answer {
+    display: block;
+}
+
+hr {
+    border-top: .4px solid var(--light-grey-blue)
+}
+
+
+
+
+
+
+footer {
+    display: none;
+}
