@@ -46,8 +46,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-vanilla-javascript-ZiKU4jmKdm](https://www.frontendmentor.io/solutions/html-css-vanilla-javascript-ZiKU4jmKdm)
+- Live Site URL: [https://sammeeey.github.io/faq-accordion-card-main/](https://sammeeey.github.io/faq-accordion-card-main/)
 
 ### Open ToDo's
 - position arrow correctly on right end of #faq-box
